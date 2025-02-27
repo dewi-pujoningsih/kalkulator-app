@@ -1,5 +1,5 @@
 import streamlit as st
-st.title(":blue[Kalkulator Aritmatika]:calculator:")
+st.title(":blue[Kalkulator Aritmatika]:rocket:")
 number1 = st.number_input("masukkan angka 1")
 number2 = st.number_input("masukkan angka 2")
 if st.checkbox("hasil kali"):
