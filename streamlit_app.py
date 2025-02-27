@@ -2,8 +2,6 @@ import streamlit as st
 st.title(":blue[Kalkulator Aritmatika]")
 number1 = st.number_input("masukkan angka 1")
 number2 = st.number_input("masukkan angka 2")
-kali = st.checkbox("hasil kali")
-
 if st.checkbox("hasil kali"):
     st.write(number1*number2)
 elif st.checkbox("hasil bagi"):
