@@ -13,7 +13,7 @@ if satu.button("operasi faktorial"):
 elif dua.button("operasi akar kuadrat"):
     st.write(math.sqrt(number))
 elif tiga.button("operasi kuadrat") :
-    st.write(math.sqr(number))
+    st.write(number**2)
 if st.button("reset"):
     st.rerun
     #hasil=math.sqrt(number1)
