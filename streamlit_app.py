@@ -4,15 +4,15 @@ st.title(":blue[Kalkulator Aritmatika]:rocket:")
 st.header(":red[Aplikasi untuk menghitung operasi aritmatika]")
 number = st.number_input("masukkan angka 1",min_value=0)
 satu,dua,tiga=st.column(3)
-satu=st.button("operasi faktorial")
-dua=st.button("operasi akar kuadrat")
-tiga=st.button("operasi kuadrat")
-if satu:
+#satu=st.button("operasi faktorial")
+#dua=st.button("operasi akar kuadrat")
+#tiga=st.button("operasi kuadrat")
+if satu.button("operasi faktorial"):
     number = int(number)
     st.write(math.factorial(number))
-elif dua:
+elif dua.button("operasi akar kuadrat"):
     st.write(math.sqrt(number))
-elif tiga :
+elif tiga.button("operasi kuadrat") :
     st.write(math.sqr(number))
            
     #hasil=math.sqrt(number1)
