@@ -2,11 +2,10 @@ import streamlit as st
 import math
 st.title(":blue[Kalkulator Aritmatika]:rocket:")
 st.header(":red[Aplikasi untuk menghitung nilai faktorial]")
-number1 = st.number_input("masukkan bilangan=")
-#number2 = st.number_input("masukkan angka 2")
+number1 = st.number_input("masukkan angka 1")
+number2 = st.number_input("masukkan angka 2")
 if st.checkbox("hasil faktorial"):
-    hasil=math.factorial(number1)
-    st.write(hasil)
+    st.write(number1*number2)
 #if st.checkbox("hasil bagi"):
     #st.write(number1/number2)
 st.write(
