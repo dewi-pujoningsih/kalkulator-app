@@ -2,7 +2,7 @@ import streamlit as st
 import math 
 st.title(":blue[Kalkulator Aritmatika]:rocket:")
 st.header(":red[Aplikasi untuk menghitung operasi aritmatika]")
-if st.button("hasil faktorial"):
+st.button("hasil faktorial"):
     number1 = int(st.number_input("masukkan angka 1",min_value=0, format="%0.1f"))
     if st.button("hitung"):
         hasil=math.factorial(number1)
