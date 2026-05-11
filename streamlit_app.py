@@ -3,7 +3,7 @@ import math
 st.title(":blue[Kalkulator Aritmatika]:rocket:")
 st.header(":red[Aplikasi untuk menghitung operasi aritmatika]")
 number = st.number_input("masukkan angka 1",min_value=0)
-satu,dua,tiga=st.column(3)
+satu,dua,tiga=st.columns(3)
 #satu=st.button("operasi faktorial")
 #dua=st.button("operasi akar kuadrat")
 #tiga=st.button("operasi kuadrat")
