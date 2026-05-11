@@ -13,7 +13,7 @@ if satu:
 elif dua:
     st.write(math.sqrt(number))
 elif tiga :
-    st.write(math.sqr(number)
+    st.write(math.sqr(number))
            
     #hasil=math.sqrt(number1)
     #st.success(f"Faktorial dari {number1} adalah: **{hasil}**")
