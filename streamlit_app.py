@@ -4,7 +4,7 @@ st.title(":blue[Kalkulator Aritmatika]:rocket:")
 st.header(":red[Aplikasi untuk menghitung nilai faktorial]")
 number1 = st.number_input("masukkan angka 1")
 if st.button("hasil faktorial"):
-    #st.write(math.factorial(number1))
+    st.write(math.factorial(number1))
     #hasil=math.sqrt(number1)
     #st.success(f"Faktorial dari {number1} adalah: **{hasil}**")
 #number2 = st.number_input("masukkan angka 2")
