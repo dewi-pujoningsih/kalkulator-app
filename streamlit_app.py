@@ -14,7 +14,8 @@ elif dua.button("operasi akar kuadrat"):
     st.write(math.sqrt(number))
 elif tiga.button("operasi kuadrat") :
     st.write(math.sqr(number))
-           
+if st.button("reset"):
+    st.rerun
     #hasil=math.sqrt(number1)
     #st.success(f"Faktorial dari {number1} adalah: **{hasil}**")
 #number2 = st.number_input("masukkan angka 2")
