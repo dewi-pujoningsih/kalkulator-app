@@ -3,6 +3,8 @@ import math
 st.title(":blue[Kalkulator Aritmatika]:rocket:")
 st.header(":red[Aplikasi untuk menghitung nilai faktorial]")
 number1 = st.number_input("masukkan angka 1")
+if st.checkbox("hasil faktorial"):
+    st.write(math.factorial(number1))
 number2 = st.number_input("masukkan angka 2")
 if st.checkbox("hasil kali"):
     st.write(number1*number2)
