@@ -9,16 +9,16 @@ dua=st.button("operasi akar kuadrat")
 tiga=st.button("operasi kuadrat")
 empat=st.button("operasi logaritma")
 lima=st.button("operasi ln")
-if satu.button("operasi faktorial"):
+if satu:
     number = int(number)
     st.write(math.factorial(number))
-elif dua.button("operasi akar kuadrat"):
+elif dua:
     st.write(math.sqrt(number))
-elif tiga.button("operasi kuadrat") :
+elif tiga :
     st.write(number**2)
-elif empat.button("logaritma") :
+elif empat :
     st.write(math.log(number))
-elif tiga.button("operasi ln") :
+elif lima:
     st.write(math.ln(number))
 if st.button("reset"):
     st.rerun()
