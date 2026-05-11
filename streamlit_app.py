@@ -1,5 +1,5 @@
 import streamlit as st
-import math
+import math as math
 st.title(":blue[Kalkulator Aritmatika]:rocket:")
 st.header(":red[Aplikasi untuk menghitung nilai faktorial]")
 number1 = st.number_input("masukkan angka 1")
