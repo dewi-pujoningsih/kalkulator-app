@@ -3,8 +3,10 @@ import math
 st.title(":blue[Kalkulator Aritmatika]:rocket:")
 st.header(":red[Aplikasi untuk menghitung operasi aritmatika]")
 if st.button("hasil faktorial"):
-    number1 = int(st.number_input("masukkan angka 1"))
-    st.success(math.factorial(number1))
+    number1 = int(st.number_input("masukkan angka 1",min_value=0, format="%0.1f"))
+    if st.button("hitung"):
+        hasil=math.factorial(number1)
+        st.success(f"hasil {number1}!={hasil}")
     #hasil=math.sqrt(number1)
     #st.success(f"Faktorial dari {number1} adalah: **{hasil}**")
 #number2 = st.number_input("masukkan angka 2")
